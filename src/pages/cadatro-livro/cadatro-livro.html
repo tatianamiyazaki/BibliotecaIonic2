@@ -1,0 +1,64 @@
+
+<ion-header>
+
+  <ion-navbar>
+     <ion-title>Cadastar Livro</ion-title>
+
+     <ion-buttons end> 
+      <button (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="livro">
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Título</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Subtítulo</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Autor</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Edição</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Editora</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Ano</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Status</ion-label>
+      <ion-select>
+        <ion-option>Disponível</ion-option>
+        <ion-option>Emprestado</ion-option>
+      </ion-select>
+    </ion-item>
+
+
+  </ion-list>
+
+  <button ion-button block color = "secondary">Gravar</button>
+
+</ion-content>
